@@ -7,8 +7,8 @@ title: Hexo
 subtitle: ""
 description: ""
 keywords:
-author: John Doe
-language: en
+author: YuebanZhou
+language: zh-CN
 timezone: ""
 
 # URL
@@ -104,8 +104,48 @@ theme: landscape
 deploy:
   type: ""
 
-# 关于页的相关配置
+# 默认暗色模式
+dark_mode:
+  enable: true
+  default: auto
+
+# 导航栏
+navbar:
+  blog_title: YuebanZhou
+
+# 首页
+index:
+  slogan:
+    enable: true
+    text: YuebanZhou的技术博客
+  banner_img: /img/banner.jpg
+
+# 文章
+post:
+  banner_img: /img/banner.jpg
+  default_index_img: /img/banner.jpg
+
+# 归档
+archive:
+  banner_img: /img/banner.jpg
+
+# 分类
+category:
+  banner_img: /img/banner.jpg
+
+# 标签
+tag:
+  banner_img: /img/banner.jpg
+  tagcloud:
+    min_font: 15
+    max_font: 30
+    unit: px # 字号单位
+    start_color: "#BBBBEE"
+    end_color: "#337ab7"
+
+# 关于
 about:
+  banner_img: /img/banner.jpg
   avatar: /img/myHead.jpg
   name: "YuebanZhou"
   intro: "尴尬癌重症患者"
@@ -121,19 +161,3 @@ about:
         tip: "思否",
       }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/myChat.jpg" }
-
-# 默认暗色模式
-dark_mode:
-  enable: true
-  default: dark
-
-# 首页
-index:
-  slogan:
-    enable: true
-    text: YuebanZhou的技术博客
-
-banner_img: /img/banner.png
-
-navbar:
-  blog_title: YuebanZhou

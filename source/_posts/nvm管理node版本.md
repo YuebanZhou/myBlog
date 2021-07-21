@@ -8,7 +8,7 @@ categories:
 tags:
  - nvm
 
-
+index_img: /img/nvm/nvm_index.png
 ---
 简述 nvvm 管理 node 版本的教程
 
